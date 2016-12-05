@@ -1,0 +1,72 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.popover-content {
+  padding: 0;
+}
+
+.board-component {
+
+  .columns {
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+
+    > .btn-success {
+      margin: 10px;
+      align-self: baseline;
+    }
+  }
+
+  .board-column-component {
+    width: 300px;
+    margin: 10px;
+    box-sizing: content-box;
+
+    .panel {
+      margin-bottom: 0;
+    }
+
+    .panel-heading i {
+      cursor: pointer;
+      margin: 5px 2px 0 2px;
+      font-size: 12px;
+      color: #eee;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .card-component {
+      i {
+        margin: 3px 2px 0 2px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      .well {
+        color: #fff;
+      }
+    }
+  }
+
+}
+
+.color-picker-component {
+
+  .color-box {
+    width: 26px;
+    height: 26px;
+    margin: 5px;
+    cursor: pointer;
+    float: left;
+
+    &:hover {
+      border: 1px solid black;
+    }
+  }
+}
